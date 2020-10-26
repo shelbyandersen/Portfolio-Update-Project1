@@ -1,3 +1,5 @@
+/* Body Styling */
+
 body {
   font-family: "Abhaya Libre", serif;
   font-size: 18px;
@@ -9,7 +11,12 @@ h1 {
   font-family: "moontimeregular", Arial, sans-serif;
   font-size: 50px;
 }
+h2 {
+  font-family: "moontimeregular", Arial, sans-serif;
+  font-size: 40px;
+}
 
+/* Navbar Styling */
 .navbar-brand {
   font-family: "moontimeregular", Arial, sans-serif;
   font-size: 38px;
@@ -19,11 +26,13 @@ h1 {
   background-color: #c5dedf;
 }
 
+/* Container Reset */
 .container {
   margin: 0px;
   padding: 0px;
 }
 
+/* Brand Statement Styling */
 .watercolor-background {
   background-image: url("watercolor-background-2000.png");
   background-repeat: no-repeat;
@@ -50,3 +59,19 @@ h1 {
   width: 180px;
   margin-top: 10%;
 }
+
+/* Coding Languages Styling */
+.coding-languages {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin: auto;
+  text-align: center;
+}
+
+.coding-icons {
+  margin-top: 15%;
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
