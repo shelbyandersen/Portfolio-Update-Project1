@@ -1,12 +1,13 @@
 body {
   font-family: "Abhaya Libre", serif;
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.navbar-brand {
+  font-family: "moontimeregular", Arial, sans-serif;
+  font-size: 38px;
 }
 
 .navbar {
   background-color: #c5dedf;
-}
-
-.nav-item {
-  font=size: 24px;
 }
