@@ -186,6 +186,12 @@ h2 {
 }
 
 .form-control {
-  padding: 3%;
+  padding: 2%;
   border-radius: 0;
+}
+
+.social-row {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 10%;
 }
