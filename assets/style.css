@@ -195,3 +195,12 @@ h2 {
   margin: 0 auto;
   padding-bottom: 10%;
 }
+
+/*Location*/
+.location-container {
+  margin-top: 10%;
+}
+
+.location-header {
+  margin-bottom: 10%;
+}
