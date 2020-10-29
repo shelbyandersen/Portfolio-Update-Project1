@@ -29,7 +29,7 @@
   <body>
     <!--nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html">Shelby Andersen</a>
+      <a class="navbar-brand" href="#about">Shelby Andersen</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -44,13 +44,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="index.html"
+            <a class="nav-link" href="#about"
               >About<span class="sr-only">(current)</span></a
             >
           </li>
@@ -70,7 +70,9 @@
             desire to learn. Currently attending Georgia Tech's Full-Stack Web
             Development Program.
           </p>
-          <button type="button" class="btn btn-light">Resume</button>
+          <button type="button" class="btn btn-light">
+            <a href="./assets/sa-resume.pdf" target="blank">Resume</a>
+          </button>
         </div>
       </div>
     </div>
@@ -107,7 +109,7 @@
 
     <!--About Me Section-->
     <div class="container-fluid" id="about-me">
-      <div class="row">
+      <div class="row" id="about">
         <div class="col-sm-12"><h1>About Me</h1></div>
       </div>
       <div class="row" id="about-section-row">
@@ -150,7 +152,7 @@
 
     <!--Portfolio Section-->
     <div class="container-fluid portfolio-container">
-      <div class="row">
+      <div class="row" id="portfolio">
         <div class="col-sm-12 portfolio-col"><h1>Portfolio</h1></div>
       </div>
       <!--Row 1-->
@@ -251,16 +253,18 @@
       </div>
       <div class="row">
         <div class="col-sm-12">
-          <button type="button" class="btn btn-light">Resume</button>
+          <button type="button" class="btn btn-light">
+            <a href="./assets/sa-resume.pdf" target="blank">Resume</a>
+          </button>
         </div>
       </div>
     </div>
 
-    <!--Brand Statement-->
+    <!--Contact-->
     <div class="container-fluid watercolor-background">
       <div class="row">
         <div class="col-sm-12" id="brand-statement">
-          <h1 class="contact-me-heading">Contact Me</h1>
+          <h1 class="contact-me-heading" id="contact">Contact Me</h1>
           <form>
             <div class="form-group">
               <label for="exampleFormControlInput1">Name</label>
@@ -289,27 +293,34 @@
             src="./assets/images/email-icon.png"
             alt="placeholder image"
             class="portfolio-img"
+            href="mailto:shelbyrobison14@gmail.com"
           />
         </div>
         <div class="col-sm-3">
           <img
             src="./assets/images/GH-icon.png"
-            alt="placeholder image"
+            alt="Github icon"
             class="portfolio-img"
+            href="https://github.com/shelbyandersen"
+            target="blank"
           />
         </div>
         <div class="col-sm-3">
           <img
             src="./assets/images/LI-icon.png"
-            alt="placeholder image"
+            alt="LinkedIn icon"
             class="portfolio-img"
+            href="https://www.linkedin.com/in/shelby-andersen-71b99784/"
+            target="blank"
           />
         </div>
         <div class="col-sm-3">
           <img
             src="./assets/images/resume-icon.png"
-            alt="placeholder image"
+            alt="resume icon"
             class="portfolio-img"
+            href="./assets/sa-resume.pdf"
+            target="blank"
           />
         </div>
       </div>
