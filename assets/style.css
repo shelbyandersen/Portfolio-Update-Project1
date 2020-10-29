@@ -214,6 +214,19 @@ a:hover {
   margin-bottom: 10%;
 }
 
+.location-section {
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.location-div {
+  margin: 0 auto;
+  text-align: center;
+}
+
 /*styling for footer*/
 footer {
   background: #c5dedf;
