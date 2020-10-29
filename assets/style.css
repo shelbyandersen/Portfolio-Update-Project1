@@ -15,6 +15,15 @@ h2 {
   font-size: 40px;
 }
 
+a {
+  color: black;
+  text-transform: none;
+}
+
+a:hover {
+  color: #648586;
+}
+
 /* Navbar Styling */
 .navbar-brand {
   font-family: "moontimeregular", Arial, sans-serif;
@@ -33,7 +42,7 @@ h2 {
 
 /* Brand Statement Styling */
 .watercolor-background {
-  background-image: url("watercolor-background-2000.png");
+  background-image: url("images/watercolor-background-2000.png");
   background-repeat: no-repeat;
 }
 
