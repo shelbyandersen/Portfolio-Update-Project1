@@ -4,7 +4,7 @@
 
 This project showcases a responsive website using the Twitter Bootstrap Framework. The website has three main sections that include an about me section, a portfolio section, and a contact section. Each page is accessible through the navigation. The main logo is linked to the about me section.
 
-![Portfolio] (./assets/images/portfolio-demo-png)
+![Portfolio] (./assets/images/portfolio-demo.png)
 
 Final Website Link: https://shelbyandersen.github.io/Portfolio-Update-Project1/
 
